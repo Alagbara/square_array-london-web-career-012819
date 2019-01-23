@@ -1,9 +1,9 @@
 
 def square_array(array)
- numbers = [1,2,3]
+ array = [1,2,3]
 
-numbers.each do
- return square_array(numbers)
+array.each do
+ return square_array(array)
 end
 
 end
